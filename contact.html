@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop&Art - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Pop&Art Logo" class="logo">
+            <nav>
+                <a href="index.html">À propos</a>
+                <a href="produits.html">Produits</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="form-container">
+                <form action="/submit" method="post">
+                    <div class="form-group">
+                        <label for="name">Nom :</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <p>Adresse : 123 Rue de la Pop Culture, 75000 Paris</p>
+                <p>Téléphone : +33 1 23 45 67 89</p>
+                <p>Email : contact@popandart.fr</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Pop&Art. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>

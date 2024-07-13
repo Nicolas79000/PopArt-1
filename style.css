@@ -1,0 +1,154 @@
+/* Importation des polices depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #222;
+}
+header, footer {
+    background-color: #222;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+header .logo {
+    max-width: 150px;
+    height: auto;
+    margin-left: 2rem; /* Décale le logo vers la gauche */
+}
+nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-grow: 1;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100; /* Roboto Thin pour les liens de navigation */
+}
+nav a:hover {
+    color: #e0288c;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.section {
+    margin: 2rem 0;
+    text-align: center;
+}
+.section h2 {
+    color: #e0288c;
+    margin-bottom: 1rem;
+    font-weight: 900; /* Roboto Black pour les titres de section */
+}
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.about-text {
+    flex: 1;
+    font-weight: 100; /* Roboto Thin pour le texte de la section à propos */
+}
+.about-image-placeholder {
+    width: 300px;
+    height: 300px;
+    background-color: #edbc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 100; /* Roboto Thin pour le texte de la zone d'image */
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.product {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.product-image-placeholder {
+    width: 100%;
+    height: 300px; /* Assure que toutes les zones d'image ont la même taille */
+    background-color: #edbc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 100; /* Roboto Thin pour le texte de la zone d'image */
+}
+.form-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+.form-group {
+    margin-bottom: 0.5rem;
+}
+.form-container label {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: #222;
+    font-weight: 900; /* Roboto Black pour les labels de formulaire */
+}
+.form-container input, .form-container textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.25rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: 100; /* Roboto Thin pour les entrées de formulaire */
+}
+.form-container button {
+    background-color: #6abe9f;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-weight: 900; /* Roboto Black pour le bouton de formulaire */
+}
+.form-container button:hover {
+    background-color: #5aa88f;
+}
+.contact-info {
+    text-align: left;
+    margin-top: 2rem;
+    font-weight: 100; /* Roboto Thin pour les informations de contact */
+}
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
